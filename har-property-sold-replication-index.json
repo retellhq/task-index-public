@@ -30,7 +30,7 @@
           "rollup": true
         },
         "timestampSpec": {
-          "column": "StatusChangeTimestamp",
+          "column": "ModificationTimestamp",
           "format": "iso"
         },
         "dimensionsSpec": {
