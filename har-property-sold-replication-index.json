@@ -286,11 +286,6 @@
           }
         ],
         "transformSpec": {
-          "filter": {
-            "type": "selector",
-            "dimension": "MlsStatus",
-            "value": "Sold"
-          },
           "transforms": [
             {
               "type": "expression",
