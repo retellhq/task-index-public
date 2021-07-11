@@ -21,7 +21,7 @@
         "inputFormat": {
           "type": "json"
         },
-        "appendToExisting": true
+        "appendToExisting": false
       },
       "tuningConfig": {
         "type": "index_parallel",
