@@ -27,10 +27,11 @@
           "type": "uniform",
           "segmentGranularity": "DAY",
           "queryGranularity": "MINUTE",
+          "intervals": ["INTERVALS"],
           "rollup": true
         },
         "timestampSpec": {
-          "column": "ModificationTimestamp",
+          "column": "StatusChangeTimestamp",
           "format": "iso"
         },
         "dimensionsSpec": {
