@@ -27,6 +27,7 @@
           "type": "uniform",
           "segmentGranularity": "DAY",
           "queryGranularity": "MINUTE",
+          "intervals": ["INTERVALS"],
           "rollup": true
         },
         "timestampSpec": {
