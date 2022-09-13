@@ -430,39 +430,7 @@
             "name": "PropertySubTypeTransformed",
             "expression": "if(cast(\"PropertySubType\", 'string') == '' && cast(\"PropertyType\",'string') == 'Residential', 'Single Family Residence', \"PropertySubType\")"
           }
-        ],
-        "filter": {
-          "type": "and",
-          "fields": [
-            {
-              "type": "bound",
-              "dimension": "ClosePrice",
-              "lower": "2",
-              "ordering": "numeric"
-            },
-            {
-              "type": "bound",
-              "dimension": "ListPrice",
-              "lower": "2",
-              "ordering": "numeric"
-            },
-            {
-              "type": "in",
-              "dimension": "CountyOrParis",
-              "values": [
-                "Austin",
-                "Brazoria",
-                "Chambers",
-                "Fort Bend",
-                "Galveston",
-                "Harris",
-                "Liberty",
-                "Montgomery",
-                "Waller"
-              ]
-            }
-          ]
-        }
+        ]
       }
     }
   }
