@@ -441,15 +441,10 @@
               ]
             },
             {
-              "type": "not",
-              "field": {
-                "type": "in",
-                "dimension": "ListPrice",
-                "values": [
-                  "0.0",
-                  "1"
-                ]
-              }
+              "type": "bound",
+              "dimension": "ListPrice",
+              "lower": "2",
+              "ordering": "numeric"
             }
           ]
         }
